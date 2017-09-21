@@ -1,0 +1,29 @@
+ul, li, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+#mountPoint {
+  height: 100vh;
+  flex-grow: 1;
+}
+
+#devtool {
+  height: 100vh;
+  flex-basis: 450px;
+  flex-shrink: 0;
+  background-color: #a1a7a3;
+}
